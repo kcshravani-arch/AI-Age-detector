@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: #00ffcc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.display-container {
+    text-align: center;
+}
+
+.video-wrap {
+    position: relative;
+    width: 90%;
+    max-width: 720px;
+    margin: auto;
+    
+}
+
+video{
+    width: 100% !important;
+    height: auto !important;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
